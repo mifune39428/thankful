@@ -66,9 +66,21 @@
 	h2 {
 		font-size: 18px;
 	}
+	.img-size-top {
+		height: 250px;
+	}
 	.img-size-sm {
 		width: 320px;
 		height: 234px;
+	}
+	.fadein {
+		transform : translate(0, 50px);
+	}
+	.fadeleft {
+		transform : translate(50px, 0);
+	}
+	.faderight {
+		transform : translate(-50px, 0);
 	}
 	.position-left {
 		position: relative;
